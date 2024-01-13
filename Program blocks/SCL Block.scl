@@ -4,6 +4,8 @@ VERSION : 0.1
 
 BEGIN
 	
+	// Add Coment GitHub teste
+	
 	CASE "Tag_1" OF
 	    1:
 	        "Tag_2" := TRUE;
