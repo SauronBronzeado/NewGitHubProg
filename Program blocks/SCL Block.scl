@@ -9,7 +9,7 @@ BEGIN
 	CASE "Tag_1" OF
 	    1:
 	        "Tag_2" := TRUE;
-	
+	        
 	    2:
 	        "Tag_3" := TRUE;
 	        
@@ -17,6 +17,8 @@ BEGIN
 	        "Tag_4" := TRUE;
 	    ELSE
 	        "Tag_2" := "Tag_3" := "Tag_4" := FALSE;
+	        
+	        //New Change data
 	        
 	END_CASE;
 	
