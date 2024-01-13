@@ -1,0 +1,22 @@
+﻿FUNCTION "SCL Block" : Void
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+
+BEGIN
+	
+	CASE "Tag_1" OF
+	    1:
+	        "Tag_2" := TRUE;
+	
+	    2:
+	        "Tag_3" := TRUE;
+	        
+	    3:
+	        "Tag_4" := TRUE;
+	    ELSE
+	        "Tag_2" := "Tag_3" := "Tag_4" := FALSE;
+	        
+	END_CASE;
+	
+END_FUNCTION
+
